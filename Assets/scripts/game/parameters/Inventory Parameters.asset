@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77281abb88afa784e92e228f4adeaf22, type: 3}
+  m_Name: Inventory Parameters
+  m_EditorClassIdentifier: 
+  InventoriesType:
+  - UID: 0001
+    ID: 0001
+    Name: Carrot
+    Description: Produce on field
+    Type: 
+    ForType: PRODUCTION_FIELD
+    Count: 1
+    ProductionStartTimeInSeconds: 1670213699
+    ProductionDurationInSeconds: 10
+    InventoryContentData:
+      STATE_PRODUCTION: prod_item_carrot_in_production
+      STATE_COMPLETE: prod_item_carrot_in_complete
+      ICON: ui_icon_0
+  - UID: 0002
+    ID: 0002
+    Name: Grass
+    Description: Produce on field
+    Type: 
+    ForType: PRODUCTION_FIELD
+    Count: 1
+    ProductionStartTimeInSeconds: 1670213349
+    ProductionDurationInSeconds: 22
+    InventoryContentData:
+      STATE_PRODUCTION: prod_item_grass_in_production
+      STATE_COMPLETE: prod_item_grass_in_complete
+      ICON: ui_icon_1
