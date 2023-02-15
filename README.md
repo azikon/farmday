@@ -1,3 +1,3 @@
 # farmday
 
-![gif](http://i.imgur.com/Aziguuf.gifv)
+![gif](http://i.imgur.com/Aziguuf.gif)
